@@ -1,0 +1,14 @@
+.face {
+  position:absolute;
+  left: 70px;
+  top: 110px;
+  opacity: 0;
+  transition: ease-out 3s;
+  transform:scale(.3);
+  transform-origin: bottom;
+}
+
+.face.active {
+  opacity:1;
+  transform:scale(1);
+}
